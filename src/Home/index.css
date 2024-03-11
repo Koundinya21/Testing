@@ -1,0 +1,35 @@
+.each-tab-item {
+  list-style-type: none;
+  flex-shrink: 0;
+  flex-grow: 1;
+  padding: 15px 0px;
+  text-align: center;
+  cursor: pointer;
+}
+.tab-container {
+  /* overflow-y: auto; */
+  overflow-y: hidden;
+  box-shadow: 0px 10px 10px -15px #111;
+}
+.active-tab-item {
+  color: #ff6347;
+  border-bottom: 2px solid #ff6347;
+  font-weight: 600;
+}
+.tab-category-button {
+  color: inherit;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+
+  padding-right: 25px;
+}
+.tab-container {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+}
